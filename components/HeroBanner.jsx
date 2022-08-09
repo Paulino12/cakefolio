@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Button from './forms/Button'
@@ -24,9 +25,11 @@ const HeroBanner = () => {
             </p>
           </motion.div>
           <motion.div>
-            <a href='/#contact'>
-              <Button btnText="Available for Hire" className="py-2 text-xl md:w-1/4 lg:w-1/6" />
-            </a>
+            <Link href='#contact'>
+              <a>
+                <Button btnText="Available for Hire" className="py-2 text-xl md:w-1/4 lg:w-1/6" />
+              </a>
+            </Link>
           </motion.div>
         </div>
       </div>
