@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className='flex flex-col md:flex-row items-center md:items-start justify-center md:px-32 w-full h-full'>
             <div className='w-3/4 md:w-1/3 h-full'>
-                <Image src="/assets/img/profile-img.jpg" layout="responsive" width="50" height="50" alt='profile' />
+                <Image src="/assets/img/profile-img-baker.jpg" layout="responsive" width="500" height="550" alt='profile' />
             </div>
             <div className='w-3/4 md:w-2/3 h-full px-3'>
                 <h2 className="text-2xl pb-2 font-semibold text-green-400">Professional Baker from London</h2>

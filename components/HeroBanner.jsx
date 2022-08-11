@@ -16,7 +16,7 @@ const HeroBanner = () => {
             <h2 className='mb-3 text-4xl font-bold lg:w-1/2'>
               I&apos;m 
               <span 
-              className='font-serif relative z-10 px-1 inline-block before:absolute before:h-1/2 before:bottom-0 before:left-0 before:right-0 before:bg-green-400 before:-z-10'> 
+              className='font-serif relative z-10 px-1 inline-block before:absolute before:h-1/3 before:bottom-0 before:left-0 before:right-0 before:bg-green-400 before:-z-10'> 
                 Jenny Wilson
               </span> 
               a Professional Baker In The Heart of London</h2>
